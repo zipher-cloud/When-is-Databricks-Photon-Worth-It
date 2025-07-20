@@ -1,0 +1,8 @@
+{
+  "cluster_name": "non-photon-cluster",
+  "spark_version": "16.4.x-scala2.12",
+  "node_type_id": "m6id.large",
+  "runtime_engine": "STANDARD",
+  "autotermination_minutes": 30,
+  "num_workers": 4
+}

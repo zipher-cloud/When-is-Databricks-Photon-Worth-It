@@ -1,0 +1,11 @@
+Query,Cluster Configuration,Execution Time (min),Aws_cost,Dbx_cost,Total_cost
+Query 1,Photon Enabled,13.1,0.03123037,0.165954,0.19718437
+Query 1,Photon Disabled,23.7,0.111280599,0.105386,0.21666660
+Query 2,Photon Enabled,6.0,0.111219423,0.081509,0.19272842
+Query 2,Photon Disabled,24.5,0.186826662,0.106578,0.29340466
+Query 3,Photon Enabled,12.8,0.297889749,0.161097,0.45898675
+Query 3,Photon Disabled,22.5,0.374875132,0.104873,0.47974813
+Query 4,Photon Enabled,7.2,0.093796048,0.07737,0.17116605
+Query 4,Photon Disabled,6.0,0.111219423,0.081509,0.19272842
+Query 5,Photon Enabled,7.8,0.013106169,0.079983,0.09308917
+Query 5,Photon Disabled,24.4,0.306737691,0.112379,0.41911669

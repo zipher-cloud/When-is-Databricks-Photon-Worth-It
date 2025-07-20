@@ -1,0 +1,8 @@
+{
+  "cluster_name": "photon-cluster",
+  "spark_version": "16.4.x-scala2.12",
+  "node_type_id": "m6id.large",
+  "runtime_engine": "PHOTON",
+  "autotermination_minutes": 30,
+  "num_workers": 4
+}

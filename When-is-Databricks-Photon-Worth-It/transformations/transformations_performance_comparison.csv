@@ -1,0 +1,15 @@
+Dataset Size,Transformation,Cluster Config,Execution Time,Aws_cost,Dbx_cost,Total_cost
+Small,T1,Photon Enabled,1.4,0.085427375,0.028595,0.11402238
+Small,T1,Photon Disabled,1.4,0.0160060223,0.006737,0.02274302
+Small,T2,Photon Enabled,1.7,0.06612214,0.02759,0.09371214
+Small,T2,Photon Disabled,1.5,0.009042,0.013,0.02733538
+Small,T3,Photon Enabled,2.0,0.119064983,0.021523,0.14058798
+Small,T3,Photon Disabled,1.7,0.013489963,0.007896,0.02138596
+Medium,T1,Photon Enabled,1.6,0.03,0.033,0.06307725
+Medium,T1,Photon Disabled,1.8,0.007391,0.0104,0.01785066
+Medium,T2,Photon Enabled,2.0,0.193483729,0.022435,0.21591873
+Medium,T2,Photon Disabled,2.6,0.00868781,0.010925,0.01961281
+Large,T1,Photon Enabled,13.1,0.03123037,0.165954,0.19718437
+Large,T1,Photon Disabled,23.7,0.111280599,0.105386,0.21666660
+Large,T2,Photon Enabled,6.0,0.111219423,0.081509,0.19272842
+Large,T2,Photon Disabled,24.5,0.186826662,0.106578,0.29340466

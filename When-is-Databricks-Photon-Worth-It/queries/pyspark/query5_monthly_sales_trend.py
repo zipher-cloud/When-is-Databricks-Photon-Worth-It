@@ -1,0 +1,10 @@
+from pyspark.sql.functions import year, month
+df5 = (spark.table("bronze.transactions_bronze")
+       .join(spark.table("bronze.products_bronze"), "product_id")
+       .withColumn("year", year("transaction_date"))
+       .withColumn("month", month("transaction_date"))
+       .groupBy("category", "year", "month")
+       .sum("amount")
+       .withColumnRenamed("sum(amount)", "monthly_sales")
+       .orderBy("category", "year", "month"))
+df5.show()
