@@ -46,7 +46,7 @@ This repository contains **all synthetic data generation scripts, benchmark quer
 
 1. **Generate synthetic datasets**  
    - For large-scale benchmarks → `data_generation/scale_a/b/c_data_generation.py`  
-   - For moderate Bronze workloads → `transformations/bronze_variation_small/medium/large.py`  
+   - For moderate Bronze workloads → `transformations/bronze_variation_small/large.py`  
 
 2. **Deploy clusters**  
    - Use `cluster_configs/` to create both Photon-enabled and Photon-disabled clusters  
