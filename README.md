@@ -68,7 +68,7 @@ This repository contains **all synthetic data generation scripts, benchmark quer
 
 Photon can dramatically speed up Databricks workloads—but not always at a lower cost. Our benchmarks show that on small and medium jobs, Photon often increases cost without delivering meaningful time savings. On large, complex workloads, it can offer both speed and cost benefits, though results vary.
 
-![Small Dataset: Execution Time and Cost per Transformation](transformations/assets/small_dataset_chart.png)
+![Small Dataset: Execution Time and Cost per Transformation](When-is-Databricks-Photon-Worth-It/transformations/assets/small_dataset_chart.png)
 
 At Zipher, we optimize Photon usage dynamically based on each job’s structure, runtime behavior, and SLA requirements—enabling it only when the performance gains justify the extra spend.
 
