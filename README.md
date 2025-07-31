@@ -29,7 +29,8 @@ This repository contains **all synthetic data generation scripts, benchmark quer
 - **transformation1_basic.py** → Basic enrichment (join, year/month, filter amount > 5)  
 - **transformation2_enrichment.py** → Enrichment with categorization + windowed aggregations  
 - **transformation3_rolling_metrics.py** → Full enrichment with rolling metrics & dense ranks  
-- **transformations_performance_comparison.csv** → Execution time & cost for all transformation variants (T1/T2/T3, small/large datasets, Photon vs. non-Photon)  
+- **transformations_performance_comparison.csv** → Execution time & cost for all transformation variants (T1/T2/T3, small/large datasets, Photon vs. non-Photon)
+- **assets/** → Supporting chart for transformation analysis (e.g., execution time vs. cost)  
 
 **cluster_configs/**  
 - `cluster_photon_enabled.json` → Photon-enabled job cluster config  
@@ -60,6 +61,16 @@ This repository contains **all synthetic data generation scripts, benchmark quer
 5. **Compare results**  
    - Review `benchmark_results/` for query performance  
    - Review `transformations_performance_comparison.csv` for transformation workloads  
+
+---
+
+## Conclusions
+
+Photon can dramatically speed up Databricks workloads—but not always at a lower cost. Our benchmarks show that on small and medium jobs, Photon often increases cost without delivering meaningful time savings. On large, complex workloads, it can offer both speed and cost benefits, though results vary.
+
+![Small Dataset: Execution Time and Cost per Transformation](transformations/assets/small_dataset_chart.png)
+
+At Zipher, we optimize Photon usage dynamically based on each job’s structure, runtime behavior, and SLA requirements—enabling it only when the performance gains justify the extra spend.
 
 ---
 
